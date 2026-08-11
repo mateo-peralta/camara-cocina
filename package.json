@@ -1,0 +1,19 @@
+{
+  "name": "rifa-backend",
+  "version": "1.0.0",
+  "description": "Backend de la plataforma de rifa: crea ordenes, inicia y confirma pagos con Mercado Pago (o transferencia/venta manual), y solo entonces emite boletos.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mercadopago": "^2.0.15",
+    "uuid": "^9.0.1"
+  }
+}
